@@ -1,0 +1,16 @@
+//Learn how to make use of IF statement and comparisons with an operator
+
+//Less than or equal to operator
+function testLessOrEqual(val) {
+  if (val) {  // Change this line
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val) {  // Change this line
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "More Than 24";
+}
+
+testLessOrEqual(10);
